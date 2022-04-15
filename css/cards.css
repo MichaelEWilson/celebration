@@ -1,0 +1,38 @@
+.card-container{
+    width: 84vw;
+    max-width: 100ch}
+
+.card{
+    list-style: none;
+    margin:0;
+    padding: 1rem;
+    border-radius: .618rem;
+    background-color: #fff}
+
+.card *{
+    width: 100%;
+    max-width: 100%}
+
+.card>a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%}
+
+.card>a strong{color: #06f}
+.card p+p{margin-top: 2.618em}
+.card .button{margin-top: auto}
+.card *+*{margin-top: .618em}
+.card figure{border-radius: .236rem}
+
+.card h5{
+    color: #555;
+    margin-top: 0}
+
+@media(hover:hover){
+    .card{transition: all .3s ease}
+    .card:not(#leadership .card):hover{transform: scale(1.035)}
+}
